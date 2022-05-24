@@ -1,13 +1,13 @@
 local status, nvim_tree = pcall(require, "nvim-tree")
 if not status then
-    vim.notify("没有找到 nvim-tree")
+    vim.notify("nvim-tree not found")
   return
 end
 
 -- 列表操作快捷键
 local list_keys = require('keybindings').nvimTreeList
 nvim_tree.setup({
-    -- 不显示 git 状态图标
+    -- don't display git status
     git = {
         enable = false,
     },
@@ -24,10 +24,10 @@ nvim_tree.setup({
     },
     view = {
         -- 宽度
-        width = 32,
+        width = 34,
         -- 也可以 'right'
         side = 'left',
-        -- 隐藏根目录
+        -- hide the root directory
         hide_root_folder = false,
         -- 自定义列表中快捷键
         mappings = {
