@@ -5,6 +5,7 @@ packer.startup({
 
         -- all plugins just use
         use('ellisonleao/gruvbox.nvim')
+        use 'JoosepAlviste/palenightfall.nvim'
         use({ "kyazdani42/nvim-tree.lua", requires = "kyazdani42/nvim-web-devicons" })
         use({ "akinsho/bufferline.nvim", requires = { "kyazdani42/nvim-web-devicons", "moll/vim-bbye" }})
         use({ "nvim-lualine/lualine.nvim", requires = { "kyazdani42/nvim-web-devicons" } })
@@ -19,6 +20,7 @@ packer.startup({
         use({ "neovim/nvim-lspconfig" })
         use {"Pocco81/AutoSave.nvim"}
         use {"windwp/nvim-autopairs"}
+        use("lukas-reineke/indent-blankline.nvim")
         -- LSP 进度提示
         use {"j-hui/fidget.nvim"}
         -- LSP UI 美化

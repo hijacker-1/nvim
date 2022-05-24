@@ -54,7 +54,7 @@ map("n", "<C-d>", "9j", opt)
 local pluginKeys = {}
 
 -- nvim-tree
-map("n", "<F1>", ":NvimTreeToggle<CR>", opt)
+map("n", "<C-t>", ":NvimTreeToggle<CR>", opt)
 map("n", "<Bs>", ":NvimTreeFindFile<CR>", opt)
 -- 列表快捷键
 pluginKeys.nvimTreeList = {
@@ -93,7 +93,7 @@ map("n", "<C-p>", "<cmd>lua require('telescope.builtin').find_files(require('tel
 map("n", "<C-o>", "<cmd>lua require('telescope.builtin').oldfiles(require('telescope.themes').get_ivy({}))<CR>", opt)
 map("n", "<C-b>", "<cmd>lua require('telescope.builtin').buffers(require('telescope.themes').get_ivy({}))<CR>", opt)
 map("n", "<C-f>", "<cmd>lua require('telescope.builtin').current_buffer_fuzzy_find()<CR>", opt)
-map("n", "<F4>" , "<cmd>lua require('telescope.builtin').live_grep()<CR>", opt)
+map("n", "<C-g>" , "<cmd>lua require('telescope.builtin').live_grep()<CR>", opt)
 -- Telescope 列表中 插入模式快捷键
 pluginKeys.telescopeList = {
     i = {

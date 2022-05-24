@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/Users/hijacker/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/Users/hijacker/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
   ["lsp_signature.nvim"] = {
     loaded = true,
     path = "/Users/hijacker/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim",
@@ -193,6 +198,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/hijacker/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["palenightfall.nvim"] = {
+    loaded = true,
+    path = "/Users/hijacker/.local/share/nvim/site/pack/packer/start/palenightfall.nvim",
+    url = "https://github.com/JoosepAlviste/palenightfall.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
